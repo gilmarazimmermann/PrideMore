@@ -22,7 +22,7 @@ namespace newPrideMore.Services
         
         public void Insert(Professional obj)
         {
-            _context.Add(obj);
+            _ = _context.Add(obj);
             _context.SaveChanges();
         }
 

@@ -5,6 +5,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Contact\**" />
+    <Compile Remove="Views\NovaPasta\**" />
+    <Compile Remove="Views\Professionals\**" />
+    <Compile Remove="Views\ProfessionalTypes\**" />
+    <Content Remove="Views\Contact\**" />
+    <Content Remove="Views\NovaPasta\**" />
+    <Content Remove="Views\Professionals\**" />
+    <Content Remove="Views\ProfessionalTypes\**" />
+    <EmbeddedResource Remove="Views\Contact\**" />
+    <EmbeddedResource Remove="Views\NovaPasta\**" />
+    <EmbeddedResource Remove="Views\Professionals\**" />
+    <EmbeddedResource Remove="Views\ProfessionalTypes\**" />
+    <None Remove="Views\Contact\**" />
+    <None Remove="Views\NovaPasta\**" />
+    <None Remove="Views\Professionals\**" />
+    <None Remove="Views\ProfessionalTypes\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\lib\bootstrap\dist\css\PrideMais-Logo.png" />
   </ItemGroup>
 

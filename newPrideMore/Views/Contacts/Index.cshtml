@@ -1,0 +1,65 @@
+﻿@model IEnumerable<newPrideMore.Models.Contact>
+
+@{
+    ViewData["Title"] = "Fale conosco";
+}
+
+<html>
+<head>
+    <title>Request for Assistance</title>
+</head>
+<body>
+    <h2>Submit Email Request for Assistance</h2>
+    <form method="post" action="ProcessRequest.cshtml">
+        <div>
+            Your name:
+            <input type="text" name="customerName" />
+        </div>
+
+        <div>
+            Your email address:
+            <input type="text" name="customerEmail" />
+        </div>
+
+        <div>
+            Details about your problem: <br />
+            <textarea name="customerRequest" cols="45" rows="4"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit" />
+        </div>
+    </form>
+</body>
+</html>
+
+
+@*<h2>@ViewData["Title"]</h2>
+    <hr />
+
+
+    <form>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email: </label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@exemplo.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Motivo do contato</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>Selecione</option>
+                <option>Denúncia</option>
+                <option>Elogios</option>
+                <option>Sugestões</option>
+                <option>Dúvidas</option>
+                <option>Outro</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Mensagem</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    </form>
+
+    <div class="form-group">
+        <input type="submit" value="Enviar" class="btn btn-dark" />
+    </div>*@
